@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackathon Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <img src="./images/logo.png" alt="logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#idee">Idee</a></li>
+            <li><a href="#proces">Proces</a></li>
+            <li><a href="#technisch">Technische Kant</a></li>
+            <li><a href="#resultaat">Resultaat</a></li>
+            <li><a href="#meer">Meer...</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      
+
+  <main>
+    <section id="idee">
+        <h2>Idee - Projectbeschrijving: </h2>
+        <div class="idee-wrapper">
+          <div class="idee-tekst">
+            <p>De Onverslaanbare AI - 
+              Onze puzzel start met het klassieke spel Blad, Steen, Schaar, maar met een twist: de AI kiest altijd hetzelfde als de speler, waardoor winnen onmogelijk is. De uitdaging? Vind een manier om toch te winnen.
+              
+              De oplossing ligt in een interactieve puzzeldoos. Rond de doos zie je symbolen en bijhorende hendels met LED-indicatoren. Door de juiste hendels in te stellen zodat alle lampjes groen zijn, activeer je een knop die een verborgen luik opent. Daarin vind je een afstandsbediening en ontvang je via een lampje een Morsecode.
+              
+              Deze code gebruik je om via de afstandsbediening cijfers in te voeren op een 7-segment display, dat geactiveerd wordt door een lichtsensor op de doos af te dekken. Voer je de juiste code in, dan krijg je de kans om de AI eindelijk te verslaan in Blad, Steen, Schaar.
+            </p>
+          </div>
+          <div class="idee-afbeelding">
+            <img src="./images/brainstorm.png" alt="Diagram van het projectidee" />
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="proces">
+      <h2>Proces</h2>
+      <p>Hier moeten we de stappen die we genomen hebben uitleggen.</p>
+    </section>
+
+    <section id="technisch">
+      <h2>Technische Kant</h2>
+      <div class="idee-afbeelding">
+      <img src="./images/hackaton_shema_v1.png"></div>
+      <p>HIER KOMT INFO OVER DE COMPONENTEN, ...</p>
+    </section>
+
+    <section id="resultaat">
+      <h2>Resultaat</h2>
+      <p>Artikel 4: ...</p>
+    </section>
+
+    <section id="meer">
+      <h2>Meer...</h2>
+      <p>Artikel 5: ...</p>
+    </section>
+  </main>
+
+
+  <section id="spel">
+    <h2>Try to Outsmart us...</h2>
+    <p id="game-tip" class="tip" style="display: none;">🤫 Tip: Soms loont het om niet origineel te zijn...</p>
+    <div class="game-container">
+      <div class="buttons">
+        <button onclick="play('rock')">🪨 Steen</button>
+        <button onclick="play('paper')">📄 Papier</button>
+        <button onclick="play('scissors')">✂️ Schaar</button>
+      </div>
+      <div class="result">
+        <p id="player-move">Jij koos: -</p>
+        <p id="ai-move">AI koos: -</p>
+        <p id="outcome">Resultaat: -</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <p>&copy; 2025 Hackathon Project – Gemaakt door [Teamnaam]</p>
+  </footer>
+
+
+</body>
+</html>
