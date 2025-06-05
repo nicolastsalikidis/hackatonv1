@@ -52,19 +52,47 @@
 
     <section id="proces">
       <h2>Proces</h2>
-      <p>Hier moeten we de stappen die we genomen hebben uitleggen.</p>
+      <p>
+      Ons proces begon met brainstormen over hoe we een klassieke game konden omtoveren tot een interactieve puzzel. Nadat we het idee bedachten van een 'onverslaanbare AI' die altijd hetzelfde kiest als de speler, hebben we stap voor stap de componenten bepaald die dit mogelijk maken.
+      <br><br>
+     We hebben prototypen gebouwd met behulp van Arduino Mega, verschillende sensors, LEDs, een servo en een elektromagneet. Elke iteratie bracht ons dichter bij het eindproduct — van het configureren van de hendels met ingebouwde weerstanden tot het testen van de morsecode-interpretatie en het instellen van het 7-segment display.
+      </p>
+
     </section>
 
     <section id="technisch">
       <h2>Technische Kant</h2>
       <div class="idee-afbeelding">
       <img src="./images/hackaton_shema_v1.png"></div>
-      <p>HIER KOMT INFO OVER DE COMPONENTEN, ...</p>
+      <p>
+  Het hart van ons systeem is een Arduino Mega, die alle signalen van en naar componenten verwerkt. De gebruikersinterface bestaat uit hendels met ingebouwde weerstanden die door de Arduino worden gelezen. Wanneer alle waarden correct zijn, worden LED’s groen en kan een knop worden geactiveerd.
+  <br><br>
+  Een servo zorgt voor het openen van een verborgen luik, terwijl een 12V elektromagneet dit luik vergrendeld houdt tot de juiste invoer is gedaan. Daarna volgt een morsecode die via een LED wordt weergegeven. Spelers moeten de code ontcijferen en invoeren op een 7-segment display, dat geactiveerd wordt via een lichtsensor.
+  <br><br>
+  Componenten in gebruik:
+  <ul>
+    <li>Arduino Mega 2560</li>
+    <li>5V Servo motor</li>
+    <li>12V elektromagneet (met relais)</li>
+    <li>LED’s + weerstanden</li>
+    <li>7-Segment display (4-digit)</li>
+    <li>Fotocel (lichtsensor)</li>
+    <li>3 hendels met variabele weerstand</li>
+    <li>Relaismodule</li>
+    <li>Drukknoppen</li>
+  </ul>
+</p>
+
     </section>
 
     <section id="resultaat">
       <h2>Resultaat</h2>
-      <p>Artikel 4: ...</p>
+      <p>
+      Het eindresultaat is een interactieve, fysieke puzzelervaring waarbij spelers op meerdere niveaus uitgedaagd worden. De combinatie van hardware en software maakt het een originele beleving die logisch denken, observatie en creativiteit vereist.
+      <br><br>
+      Door het oplossen van de hendelpuzzel, het lezen van de morsecode en het invoeren van een geheime code, krijgen spelers eindelijk de kans om de 'onverslaanbare AI' te slim af te zijn. De gebruikersinterface is intuïtief, en de fysieke feedback (zoals het openen van het luik) maakt het bijzonder bevredigend.
+      </p>
+
     </section>
 
     <section id="meer">
